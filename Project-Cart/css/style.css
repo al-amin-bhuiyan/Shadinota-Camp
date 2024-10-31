@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* header style start */
+.header-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0 17px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(216, 212, 212);
+
+
+}
+
+.left-header-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.logo img{
+    height: 20px;
+
+}
+
+.nav-bar ul {
+  display: flex;
+  gap: 12px;
+
+}
+ .nav-bar ul li {
+  list-style: none;
+
+}
+ .nav-bar ul li a {
+  text-decoration: none;
+  color: rgb(110, 110, 110);
+
+}
+.right-header-container{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.cart-image img{
+    height: 15px;
+}
+
+.banner-image img{
+    height: 35px;
+}
+
+/* header style end */
+
+
+/* main style start */
+
+.main-container{
+    width: 70%;
+    display: flex;
+    margin: 50px  auto 0 auto;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+}
+.left-main-container{
+    height: 300px;
+    width: 40%;
+    padding: 0 40px;
+
+}
+.show-img img{
+    height: 100%;
+    width: 350px;
+
+    border-radius: 10px;
+
+}
+.thumbnail-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 33px;
+  
+   
+}
+.thumbnail-img img{
+    width: 63px;
+    border-radius: 4px;
+
+
+}
+.first-img{
+    opacity: 60%;
+}
+.right-main-container{
+    width: 60%;
+    height:300px ;
+  
+    padding: 40px 0 0 120px;
+}
+.company-title p{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    padding-bottom: 8px;
+}
+.company-name p {
+    font-size: 33px;
+    font-weight: bold;
+
+}
+
+.company-about p{
+    font-size: 13px;
+    color: grey;
+    margin: 20px 0 0 0;
+    text-align: justify;
+
+}
+.price-offer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.price-offer p{
+    width: 35px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.line-cut{
+
+    font-size: 13px;
+    color: grey;
+    margin-top: 7px;
+    font-weight: bold;
+}
+.buttton-container{
+    margin: 50px 0 0 0;
+    display: flex;
+    align-items: center;
+
+}
+.plus-minius-button{
+   display: flex;
+   align-items: center;
+   background-color: rgb(255, 247, 247);
+   width: 30%;
+   padding: 5px 10px;
+   gap: 20px;
+}
+.plus-minius-button button{
+    background-color: transparent;
+    border: none;
+}
+.plus-minius-button p
+{
+    font-weight: bold;
+}
+.plus-minius-button button i{
+    color: orangered;
+    font-weight: 700;
+    font-size: 20px;
+}
+.cart-button .cart{
+    /* padding: 5px 10px; */
+    width: 190px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: orangered;
+    border: none;
+}
+.cart-button button {
+
+    font-size: 18px;
+} 
+.cart-button .cart i {
+    margin-right: 8px; 
+}
+/* main style end */
+
